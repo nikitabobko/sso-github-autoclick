@@ -2,7 +2,12 @@
 
 A browser extension that automatically clicks the "Continue" button on GitHub Single Sign-On pages.
 
-## Installation
+## Installation from stores
+
+- Google Chrome: https://chromewebstore.google.com/detail/hfbomnfikccplogceifkhiecccpnhhjn/preview?hl=en-GB&authuser=0 (WIP)
+- Firefox: https://addons.mozilla.org/en-US/firefox/addon/github-sso-auto-continue (WIP)
+
+## Installation from sources
 
 ### Chrome / Chromium-based browsers (Brave, Edge, etc.)
 1. Open Chrome and navigate to `chrome://extensions/`
