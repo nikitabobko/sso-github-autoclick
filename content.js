@@ -96,7 +96,7 @@
       if (savedAccount) {
         disconnectGoogleObserver();
         savedAccount.element.click();
-        console.log('GitHub SSO Auto-Continue: Clicked saved account', savedEmail);
+        console.log('GitHub SSO Auto-Continue: Clicked saved account');
         return;
       }
     }
@@ -104,7 +104,7 @@
     if (accountEmails.length === 1) {
       disconnectGoogleObserver();
       accountEmails[0].element.click();
-      console.log('GitHub SSO Auto-Continue: Clicked single account', accountEmails[0].email);
+      console.log('GitHub SSO Auto-Continue: Clicked single account');
       return;
     }
 
@@ -112,7 +112,7 @@
     if (nonGmailAccounts.length === 1) {
       disconnectGoogleObserver();
       nonGmailAccounts[0].element.click();
-      console.log('GitHub SSO Auto-Continue: Clicked single non-gmail account', nonGmailAccounts[0].email);
+      console.log('GitHub SSO Auto-Continue: Clicked single non-gmail account');
       return;
     }
 
@@ -121,7 +121,7 @@
       const email = extractEmail(target);
       if (email && accountEmails.some(a => a.email === email)) {
         await chrome.storage.local.set({ savedEmail: email });
-        console.log('GitHub SSO Auto-Continue: Saved user selection', email);
+        console.log('GitHub SSO Auto-Continue: Saved user selection');
       }
     };
 
