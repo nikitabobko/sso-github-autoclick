@@ -35,3 +35,7 @@ When you sign in to GitHub via Google, you may be redirected to Google's account
 4. Otherwise, the extension waits for you to manually click an account. Your selection is saved for future sessions.
 
 We believe this sensible default behavior works well for most users. Currently, we do not offer configuration options to customize this behavior.
+
+## Development
+
+100% vibe coded
