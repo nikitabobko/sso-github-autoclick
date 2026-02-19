@@ -49,8 +49,7 @@
     if (nestedEmailEl) {
       return nestedEmailEl.getAttribute('data-email').toLowerCase();
     }
-    const emailMatch = element.textContent.match(/[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/);
-    return emailMatch ? emailMatch[0].toLowerCase() : null;
+    return null;
   }
 
   function isGmail(email) {
