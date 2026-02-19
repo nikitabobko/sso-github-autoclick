@@ -2,6 +2,10 @@
 
 A browser extension that automatically clicks the "Continue" button on GitHub Single Sign-On pages.
 
+<p align="center">
+  <img src="screenshot.png" alt="Google Account Chooser" width="640" height="400">
+</p>
+
 ## Installation from stores
 
 - Google Chrome: https://chromewebstore.google.com/detail/hfbomnfikccplogceifkhiecccpnhhjn/preview?hl=en-GB&authuser=0 (WIP)
