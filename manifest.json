@@ -11,7 +11,7 @@
       }
     }
   },
-  "permissions": ["activeTab", "scripting", "storage"],
+  "permissions": ["storage"],
   "host_permissions": ["*://github.com/*", "*://accounts.google.com/*"],
   "content_scripts": [
     {
