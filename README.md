@@ -8,7 +8,7 @@ A browser extension that automatically clicks the "Continue" button on GitHub Si
 
 ## Installation from stores
 
-- Google Chrome: https://chromewebstore.google.com/detail/hfbomnfikccplogceifkhiecccpnhhjn/preview?hl=en-GB&authuser=0 (WIP)
+- Google Chrome: https://chromewebstore.google.com/detail/github-sso-auto-continue/hfbomnfikccplogceifkhiecccpnhhjn
 - Firefox: https://addons.mozilla.org/en-US/firefox/addon/github-sso-auto-continue (WIP)
 
 ## Installation from sources
